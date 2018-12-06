@@ -59,7 +59,7 @@ public class TestController {
 		      int width = matrix.getWidth();
 		      int height = matrix.getHeight();
 		      int[] pixels = new int[width * height];  
-		 
+		      int[][] srcPixels = new int[IMAGE_WIDTH][IMAGE_HEIGHT];
 		      for (int y = 0; y < matrix.getHeight(); y++) {  
 		          for (int x = 0; x < matrix.getWidth(); x++) {  
 		              // 读取图片  

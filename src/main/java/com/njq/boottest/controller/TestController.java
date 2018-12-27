@@ -18,7 +18,7 @@ public class TestController {
 
 	@RequestMapping("/test")
 	public String test() {
-		return "是是是";
+		return "是11111是111111是";
 	}
 
 	private static final int WIDTH = 300;
